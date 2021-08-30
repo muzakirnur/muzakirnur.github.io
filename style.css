@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@300;500&display=swap');
+
+* {
+    border: 2px solid red;
+}
+
+body {
+    background-color: red;
+}
+
+.container {
+    background-color: red;
+}
+
+nav {
+    background-color: red;
+    border: 2px solid red;
+}
+
+.container .logo a {
+    color: rosybrown;
+    font-family: monospace;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+}

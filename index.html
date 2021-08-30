@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muzakir Nur's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/font/fontawesome/css/all.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <title>Muzakir's Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+
 <body>
-    <nav class="clearfix">
-        <nav class="ul">
-            <li class="logo">
-                <a href="#">Muzakir Nur</a>
-            </li>
-            <li class="nav-item">
-                <a href="#"><i class="fas fa-home"></i> Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#"><i class="fas fa-address-card"></i> About</a>
-            </li>
-            <li class="nav-item">
-                <a href="#">Menu 2</a>
-            </li>
-            <li class="nav-item">
-                <a href="#">Menu 3</a>
-            </li>
-        </nav>
-    </nav>
     <div class="container">
-        <section class="one" id="#1">
-            <h1> section 1</h1>
-        </section>
-        <section class="two">
-            <h1>Section 2</h1>
-        </section>
-        <section class="three">
-            <h1> Section 3</h1>
-        </section>
-        <section class="four" id="4">
-            <h1> Section 4</h1> 
-        </section>
+        <div class="section-hero" id="home">
+            <div class="logo">
+                <h1>Muzakir Nur</h1>
+                <hr>
+                <h3>Fullstack Developer</h3>
+            </div>
+            <div class="arrow">
+                <a href="#about">
+                <img src="/assets/img/arrow2.svg">
+                </a>
+            </div>
+            <div class="profile">
+                <img src="/assets/img/profile.png"/>
+            </div>
+        </div>
     </div>
+<div class="container">
+    <div class="navbar" id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="container">
+    <div class="section" id="about">
+        <div class="card">
+            <div class="profile">
+                <img src="/assets/img/profile2.png" alt="">
+            </div>
+            <div class="about-detail">
+                <h1>About Me</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo sapiente temporibus, dignissimos ipsum illum. Dolorum, maxime explicabo! Officia, ratione autem. Culpa a veritatis cum quo praesentium laudantium illo! Ipsum.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/assets/js/style.js"></script>
 </body>
+
 </html>

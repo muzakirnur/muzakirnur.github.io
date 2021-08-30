@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muzakir's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+
 <body>
-    <div class="navbar">
-        <div class="logo">INI LOGO YA MEMEK</div>
-        <div class="navbar-link">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">My Project</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </div>
     <div class="container">
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col"></div>
-                <div class="col-2"></div>
+        <div class="section-hero" id="home">
+            <div class="logo">
+                <h1>Muzakir Nur</h1>
+                <hr>
+                <h3>Fullstack Developer</h3>
+            </div>
+            <div class="arrow">
+                <a href="#about">
+                <img src="/assets/img/arrow2.svg">
+                </a>
+            </div>
+            <div class="profile">
+                <img src="/assets/img/profile.png"/>
             </div>
         </div>
     </div>
+<div class="container">
+    <div class="navbar" id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="container">
+    <div class="section" id="about">
+        <div class="card">
+            <div class="profile">
+                <img src="/assets/img/profile2.png" alt="">
+            </div>
+            <div class="about-detail">
+                <h1>About Me</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo sapiente temporibus, dignissimos ipsum illum. Dolorum, maxime explicabo! Officia, ratione autem. Culpa a veritatis cum quo praesentium laudantium illo! Ipsum.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/assets/js/style.js"></script>
 </body>
+
 </html>
